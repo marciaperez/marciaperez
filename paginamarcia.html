@@ -1,0 +1,89 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Html 5 y CSS</title>
+<LINK href="diseñopagina.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+       <header class="estilo_bloque">
+           <img class="img-circulo" src="Imagenes/foto_perfil.jpg">
+           <p>Marcia Yessenia Perez</p>
+          
+           <nav>
+            <p>
+              <a href="contenido_compuesto.html">Inicio</a><a>|</a>
+              <a href="estructura_basica.html">Php</a><a>|</a>  
+              <a href="contenido_simple.html">.Net</a><a>|</a>
+              <a href="tablas.html">Java</a><a>|</a>
+            </p>
+          
+           </nav>
+          </header>
+        
+        <div class="estilo_bloque">
+        <p class="titulo">
+          <h3>Lenguaje de Programacion</h3>
+      </p>
+
+      
+      <ol type="1" start="1"> 
+        <li >Paginas Web</li>
+        <ul class="mp1"> 
+          <li>Java</li>
+          <li>Aspx</li>
+          <li>Php</li>
+        </ul>
+        <li>Aplicaciones</li>
+        <ul class="mp2">
+          <li>Java</li>
+          <li>Visual Basic</li>
+          <li>C#</li>
+        </ul>
+      </div> 
+        
+        
+      
+      </header>
+    
+       <div class="estilo_bloque">
+           <table>
+               <tr><td colspan="2">Programacion Web</td></tr>
+               <tr><td>Asp</td><td>Jsp</td></tr>
+               <tr><td>Php</td><td>Ruby</td></tr>
+               <tr><td>Python</td><td>Go</td></tr>
+           </table>
+       </div>
+       <div class="estilo_bloque">
+            <form>
+      <input type="text" name="txt_nombres" placeholder="Ingrese Nombres" required>
+      <input type="text" name="txt_apellidos" placeholder="Ingrese Apellidos" required>
+      <input type="number" name="txt_telefono" placeholder="Ingrese Numero Telefonico" required>
+      <input type="email" name="txt_correo" placeholder="Ingrese Correo Electronico" required>
+      <input type="date" name="txt_fn" placeholder="Ingrese Fecha Nacimiento" required>
+      <textarea name="txt_mensaje" placeholder="Ingrese el Mensaje"></textarea>
+
+    <input type="submit" class="boton" onclick="mensaje_btn()">  
+    <script>
+      function mensaje_btn(){
+        alert(name);
+        document.body.innerHTML = "</h1>";
+      }
+      
+    </script>
+    
+    
+    </form>
+       </div>
+       <div class="estilo_bloque" id="redes_sociales" >
+        <h3>Redes Sociales</h3>
+        <a href="#"><img src="Imagenes/facebook.png"></a>
+        <a href="#"><img src="Imagenes/twitter.png"></a>
+       </div>
+
+
+    </body>
+    <footer>
+            <p  align=center>Aprende a Programar
+                 Fácil y Rápido &copy;</p>
+    </footer>
+</html>
